@@ -10,13 +10,15 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
+    HeroesComponent,
+    HeroDetailComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HeroesComponent
+    
 ],
   providers: [],
   bootstrap: [AppComponent]
